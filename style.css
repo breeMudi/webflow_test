@@ -455,7 +455,6 @@
       
   .hero-heading-left {
     width: 100%;
-    min-height: 900px;
     grid-column-gap: 80px;
     grid-row-gap: 80px;
     background-color: #fff;
