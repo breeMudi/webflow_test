@@ -395,6 +395,9 @@
     }
       
   .navbar-content-2 {
+    position: fixed;
+    background-color: #e4ebf3;
+    padding-top: 50px;
     width: 100%;
     max-width: 1200px;
     justify-content: space-between;
@@ -455,13 +458,13 @@
       
   .hero-heading-left {
     width: 100%;
-    min-height: 900px;
+    /* height: 100vh; */
     grid-column-gap: 80px;
     grid-row-gap: 80px;
     background-color: #fff;
     justify-content: center;
     align-items: center;
-    padding: 64px 24px;
+    padding: 100px 24px;
     display: flex;
     flex-direction: column;
     }
@@ -535,13 +538,16 @@
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center;  */
     display: flex;
+    /* height: 300px; */
     }
       
   .hero-image {
-    width: 100%;
+    max-width: 80%;
+    max-height: 600px;
     object-fit: cover;
+    object-position: top;
     justify-content: center;
     align-items: center;
     display: flex;
